@@ -17,7 +17,7 @@ const disbut = require('discord-buttons');
 disbut(client);
 const { getTracks, getPreview } = require("spotify-url-info");
 
-const prefix = "!";
+const prefix = "&";
 
 client.on("ready", async () =>{
 const statuses = [
@@ -36,7 +36,7 @@ let i = 0
     client.user.setStatus("online");
 });
 
-client.login("VOTRE_TOKEN");
+client.login("OTAzMDg5NDQ1MDk4NjE4OTIx.YXn5lg.Ek-lNur97NXcv4Q_MDmtu8o3ttM");
 
 
 var list = [];
